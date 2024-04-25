@@ -1,0 +1,68 @@
+/* Font styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #ff6f61; /* Coral */
+}
+
+/* Link styles */
+a {
+    color: #008080; /* Teal */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffac45; /* Orange */
+}
+
+/* Button styles */
+.button {
+    background-color: #ffac45; /* Orange */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff6f61; /* Coral */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ff6f61; /* Coral */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Groovy background */
+body {
+    background-image: url('groovy-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Dancing Text */
+@keyframes dancing-text {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}
+
+.dancing {
+    animation: dancing-text 2s infinite; /* Apply animation */
+}
